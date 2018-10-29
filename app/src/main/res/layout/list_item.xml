@@ -60,7 +60,7 @@
             android:layout_gravity="start"
             android:textColor="@color/primaryLightColor"
             android:textSize="12sp"
-            tools:text="Article Unattributed" />
+            tools:text="@string/unattributed_article_error" />
 
         <TextView
             android:id="@+id/date_text_view"
@@ -69,7 +69,7 @@
             android:layout_gravity="start"
             android:textColor="@color/primaryLightColor"
             android:textSize="12sp"
-            tools:text="No date provided" />
+            tools:text="@string/no_date_provided_error" />
 
     </LinearLayout>
 

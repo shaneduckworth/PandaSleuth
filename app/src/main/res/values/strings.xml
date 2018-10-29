@@ -1,4 +1,39 @@
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 <resources>
     <string name="app_name">PandaSleuth</string>
-    <string name="title_activity_panda">panda</string>
+    <string name="title_activity_panda">PandaSleuth</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">PandaSleuth Settings</string>
+    <string name="settings_topic_label">Topic</string>
+    <string name="settings_topic_default">solar</string>
+    <string name="settings_topic_key">topic</string>
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value">newest</string>
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value">oldest</string>
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value">relevance</string>
+    <string name="settings_order_by_default">relevance</string>
+    <string name="settings_order_by_key">order_by</string>
+    <string name="settings_section_default">environment</string>
+    <string name="settings_section_key">section</string>
+    <string name="settings_section_title">Section</string>
+    <string name="internet_error_message">The internet seems to be a bit elusive.  There are no news feeds.  Please check your internet connection and try again.</string>
+    <string name="no_article_error_message">There are no articles with the specified search term.  Select \'Settings\' and enter a different search term.</string>
+    <string name="unattributed_article_error">Article Unattributed</string>
+    <string name="no_date_provided_error">No date provided</string>
 </resources>
